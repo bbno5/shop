@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="source/styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #a3a3a3a8;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: grey;
+      /* Замените на желаемый цвет */
+    }
+  </style>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+  <title>ITSchool</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="nav-link" href="index.html">ITScool</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+          </ul>
+          <a class="nav-link d-flex align-items-center ms-auto" href="tel:+123456789">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M10.715 1.277a12.927 12.927 0 0 1 3.008 4.878 12.927 12.927 0 0 1-5.394 5.394 12.927 12.927 0 0 1-4.878-3.008l-.847.847a1.5 1.5 0 0 1-1.768.248l-2.342-.937a1.5 1.5 0 0 1-.62-2.207l1.567-3.134a1.5 1.5 0 0 1 2.207-.62l.937 2.342a1.5 1.5 0 0 1-.248 1.768l-.847.847z" />
+            </svg>
+            <span class="ms-2">Позвонить</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Внимание!!!</strong> Действует скидка 29% ко всем курсам, успей до 01.12.2023.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+
+        <div class="col-lg-8 col-md-12">
+          <div class="rov">
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/python (1).png" class="w-100" alt="" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slide-text">
+                        <p>
+                          Python — высокоуровневый язык программирования общего назначения с динамической строгой
+                          типизацией и автоматическим управлением памятью, ориентированный на повышение
+                          производительности разработчика, читаемости кода и его качества, а также на обеспечение
+                          переносимости написанных на нём программ.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/java.png" class="w-100" alt="" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slide-text">
+                        <p>
+                          Java — строго типизированный объектно-ориентированный язык программирования общего назначения,
+                          разработанный компанией Sun Microsystems. Разработка ведётся сообществом, организованным через
+                          Java Community Process; язык и основные реализующие его технологии распространяются по
+                          лицензии GPL
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+          <div class="row px-2">
+            <div class="col-lg-12 sidebar my-4">
+              <p>
+                <strong>HTML</strong> (от англ. HyperText Markup Language — «язык гипертекстовой разметки») —
+                стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере.
+                Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального
+                диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>
+                <strong>CSS</strong> ( нгл. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык
+                декорирования и описания внешнего вида документа (веб-страницы), написанного с использованием языка
+                разметки (чаще всего HTML или XHTML). Также может применяться к любым XML-документам, например, к SVG
+                или XUL.
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>
+                <strong>JavaScript</strong> — мультипарадигменный язык программирования. Поддерживает
+                объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации
+                ECMAScript (стандарт ECMA-262[9]).
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>
+                <strong>Java</strong> — строго типизированный объектно-ориентированный язык программирования общего
+                назначения, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle).
+                Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие
+                его технологии распространяются по лицензии GPL. Права на торговую марку принадлежат корпорации Oracle.
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>
+                <strong>Python</strong> (МФА: [ˈpʌɪθ(ə)n]; в русском языке встречаются названия пито́н[23] или
+                па́йтон[24]) — высокоуровневый язык программирования общего назначения с динамической строгой типизацией
+                и автоматическим управлением памятью[25][26], ориентированный на повышение производительности
+                разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём
+                программ[27]. <a href="#">Learn More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-4">
+    <div class="container-fluit">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>ALL Rights Reserved 2023</p>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>Adress: Kiev, St.Bandera Street.<br>Contact: +1234567890<br>ITSchool</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
